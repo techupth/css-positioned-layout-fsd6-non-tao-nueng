@@ -1,5 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Kanit";
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Start coding here */
+img {
+  border-radius: 10px;
+  position: relative;
+}
+
+.img-box {
+  background-color: #fff;
+  position: relative;
+  padding: 10px;
+}
+
+.title {
+  color: white;
+  /* background-color: blue; */
+  position: absolute;
+  top: 545px;
+  left: 340px;
+}
+
+.tag {
+  font-size: 20px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 10px;
+  position: absolute;
+  top: 330px;
+  left: 880px;
+}
