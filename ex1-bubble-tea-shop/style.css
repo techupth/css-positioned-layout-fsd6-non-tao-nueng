@@ -1,5 +1,36 @@
 body {
   font-family: "Kanit";
+  background-color: black;
 }
-
-/* Start coding here */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+img{
+  border: white solid 5px;
+}
+.content,.title{
+  color: white;
+}
+.title{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 270px;
+  left: 529px;
+}
+div .box{
+  position: relative;
+}
+.content{
+  position: absolute;
+ bottom: 10px;
+ left: 20px;
+ font-size: 1.5rem;
+}
