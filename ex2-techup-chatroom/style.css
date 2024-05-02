@@ -1,1 +1,88 @@
-/* Start coding here */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.header {
+    background-color: grey;
+    flex-basis: 8%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+.box-green {
+    background-color: rgb(55, 201, 55);
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.box-grey {
+    background-color: rgb(126, 126, 126);
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.box-cancle {
+    background-color: rgb(214, 214, 214);
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    padding-left: 20px;
+}
+.cancle {
+    position: absolute;
+    background-color: rgb(172, 170, 170);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 20px;
+    left: 380px;
+    bottom: 25px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+    margin: 30px;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    margin: 30px;
+}
